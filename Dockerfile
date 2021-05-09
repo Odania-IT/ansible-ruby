@@ -1,4 +1,4 @@
-FROM ruby:2.4
+FROM ruby:2.7
 MAINTAINER Mike Petersen <mike@odania-it.de>
 
 RUN echo "deb http://ppa.launchpad.net/ansible/ansible/ubuntu trusty main" >> /etc/apt/sources.list
